@@ -16,7 +16,6 @@ from buck_tool import BuckTool, Resource
 SERVER = Resource("buck_server")
 BOOTSTRAPPER = Resource("bootstrapper_jar")
 
-
 @contextlib.contextmanager
 def closable_named_temporary_file(*args, **kwargs):
     """
