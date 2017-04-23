@@ -7,7 +7,6 @@ import xml.etree.ElementTree as ET
 
 from collections import defaultdict
 
-
 class LintProblem(object):
     """Stores a reference to a checkstyle problem.
     """
@@ -63,7 +62,7 @@ class DeleteLineFixer(Fixer):
 
         return {
             'line': problem.line
-        }
+                 }
 
     def get_translate_function(self, translate_metadata):
         def translateFunc(problem):
