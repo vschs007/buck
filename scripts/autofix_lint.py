@@ -4,7 +4,6 @@ import argparse
 import re
 import sys
 import xml.etree.ElementTree as ET
-
 from collections import defaultdict
 
 class LintProblem(object):
